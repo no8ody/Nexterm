@@ -75,5 +75,5 @@ jobs:
           push: true
           platforms: linux/amd64,linux/arm64,linux/arm/v7
           tags: |
-            germannewsmaker/nexterm:latest
-            germannewsmaker/nexterm:${{ steps.get_version.outputs.version }}
+            no8odycares/nexterm:latest
+            no8odycares/nexterm:${{ steps.get_version.outputs.version }}
